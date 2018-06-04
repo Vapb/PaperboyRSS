@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"><![CDATA[
+
+    android:layout_height="match_parent">
+
+
+    ]]>
+
+    <TextView
+        android:id="@+id/later_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Inscrições"
+        android:textAlignment="center"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/adicionar_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adicionar RSS"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/rss_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Adicionar" />
+
+    <TextView
+        android:id="@+id/inscricoes_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Incrições Atuais"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/favoritos_tv" />
+</LinearLayout>
